@@ -53,7 +53,7 @@
 		startOfWeekFormat: 'ddd',
 		squareEdges: false,
 		text: 'ddd<br/>Do',
-		textSelected: 'dddd<br/>Do, MMMM YYYY',
+		textSelected: '<span class="dayname">dddd</span><br/><span class="dateval">MMMM Do</span><span class="yearval">YYYY</span>',
 		width: 0,
 		startDate: moment(new Date(-8640000000000000)),
 		startDateFormat: 'YYYY-MM-DD',
